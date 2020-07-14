@@ -1,18 +1,71 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Охватывает интегрированные среды разработки JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm и Rider.
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Other files and folders
-.settings/
+# Пользовательские вещи
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / use.statistics.xml
+.idea / ** / словари
+.idea / ** / полка
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Сгенерированные файлы
+.idea / ** / contentModel.xml
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Чувствительные или высокоточные файлы
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / библиотеки
+
+# Gradle и Maven с автоимпортом
+# При использовании Gradle или Maven с автоимпортом вы должны исключить файлы модулей,
+# так как они будут воссозданы, и могут вызвать отток. Раскомментируйте, если используете
+# авто-импорт.
+# .idea / артефакты
+# .idea / compiler.xml
+# .idea / jarRepositories.xml
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+# * .iml
+# * .ipr
+
+# CMake
+cmake-build- * /
+
+# Mongo Explorer плагин
+.idea / ** / mongoSettings.xml
+
+# Файловый формат проекта
+* .iws
+
+# IntelliJ
+Out /
+
+# mpeltonen / sbt-idea плагин
+.idea_modules /
+
+# JIRA плагин
+Atlassian-ида-plugin.xml
+
+# Cursive Clojure плагин
+.idea / replstate.xml
+
+# Crashlytics плагин (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Редактор Rest Client
+.idea / httpRequests
+
+# Android studio 3.1+ сериализованный кеш файл
+.idea / кэша / build_file_checksums.ser
